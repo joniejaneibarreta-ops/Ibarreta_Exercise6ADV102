@@ -1,6 +1,5 @@
 import { createContext, ReactNode, useContext, useState } from "react";
 
-// We define themes as pairs of colors for our LinearGradients
 const themes = {
   lavenderDream: ["#FFD6E8", "#E5D9FF"] as [string, string, ...string[]],
   oceanMist: ["#D6F0FF", "#E5D9FF"] as [string, string, ...string[]],

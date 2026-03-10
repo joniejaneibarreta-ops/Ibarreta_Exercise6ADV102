@@ -72,7 +72,6 @@ export default function Setup() {
         </View>
 
         <View style={styles.card}>
-          {/* Profile Picture Upload */}
           <TouchableOpacity
             style={styles.imagePickerContainer}
             onPress={pickImage}

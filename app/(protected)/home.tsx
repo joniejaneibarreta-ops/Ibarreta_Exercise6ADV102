@@ -52,7 +52,6 @@ export default function Home() {
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        {/* App Branding Title */}
         <Text style={styles.appBrand}>NovelNest</Text>
 
         <View style={styles.header}>
@@ -112,14 +111,14 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     padding: 24,
-    paddingTop: 60, // Space for the status bar
+    paddingTop: 60,
   },
   appBrand: {
     fontSize: 14,
     fontWeight: "900",
     textTransform: "uppercase",
     letterSpacing: 2,
-    color: "rgba(58, 58, 58, 0.4)", // Subtle branding
+    color: "rgba(58, 58, 58, 0.4)",
     marginBottom: 8,
   },
   header: {

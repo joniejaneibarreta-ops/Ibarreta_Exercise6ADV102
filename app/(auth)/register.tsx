@@ -115,7 +115,6 @@ export default function Register() {
   );
 }
 
-// Shared styles (kept consistent with login.tsx)
 const styles = StyleSheet.create({
   container: { flex: 1 },
   scrollContainer: { flexGrow: 1, justifyContent: "center", padding: 24 },

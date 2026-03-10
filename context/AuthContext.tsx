@@ -26,10 +26,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   function register(email: string) {
     setRegisteredEmail(email);
 
-    // create temporary user
     setUser({ email });
 
-    // require setup page
     setNeedsSetup(true);
   }
 
@@ -54,7 +52,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       };
     });
 
-    // setup completed
     setNeedsSetup(false);
   }
 
